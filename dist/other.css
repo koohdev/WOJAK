@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+html {
+  font-size: 100%;
+} /*16px*/
+
+body {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  color: #1e1e1e;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+div,
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #1e1e1e;
+}
+
+h1 {
+  font-size: 4.209rem;
+}
+
+h2 {
+  font-size: 3.157rem;
+}
+
+h3 {
+  font-size: 2.369rem;
+}
+
+h4 {
+  font-size: 1.777rem;
+}
+
+h5 {
+  font-size: 1.333rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+small,
+.text_small {
+  font-size: 0.75rem;
+}
+
+@media screen and (max-device-width: 1024px) and (orientation: landscape) {
+  .main-wrapper {
+    height: auto;
+  }
+
+  .type-1 {
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+  }
+}
+
+@media screen and (max-device-width: 1000px),
+  (max-device-height: 1024px) and (orientation: landscape) {
+  .main-wrapper {
+    height: auto;
+  }
+
+  .type-1 {
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+  }
+}
+
+@media screen and (max-device-width: 1000px),
+  (max-device-height: 1000px) and (orientation: portrait) {
+  .main-wrapper {
+    height: auto;
+  }
+
+  .type-1 {
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+  }
+}
